@@ -13,13 +13,17 @@ innosetup is free famous installer builder for windows [official site](http://ww
 - Use (Script Studio) to generate "Script.iss" in visual studio project folder
 
 - In github install "Azure Pipelines" from "Marketplace"
-![alt](https://raw.githubusercontent.com/khelifaadm/InnoSetupSample/master/InnoSetupWinform/Capture/1.PNG)
+</br>
+![1](https://user-images.githubusercontent.com/3145143/52985550-a54f8680-33f4-11e9-9ba7-d8acaabf0655.PNG)
+
 - In Azure devops create build that uses ".net desktop" template
-![alt](https://raw.githubusercontent.com/khelifaadm/InnoSetupSample/master/InnoSetupWinform/Capture/2.png)
-![alt](https://raw.githubusercontent.com/khelifaadm/InnoSetupSample/master/InnoSetupWinform/Capture/3.png)
-![alt](https://raw.githubusercontent.com/khelifaadm/InnoSetupSample/master/InnoSetupWinform/Capture/4.png)
-- to the "Agent job 1" Add "Command Line" task 
-![alt](https://raw.githubusercontent.com/khelifaadm/InnoSetupSample/master/InnoSetupWinform/Capture/5.png)
+![2](https://user-images.githubusercontent.com/3145143/52985576-c4e6af00-33f4-11e9-861d-3b3b52123828.PNG)
+
+![3](https://user-images.githubusercontent.com/3145143/52985589-d7f97f00-33f4-11e9-9cf6-2fdbd5f569ad.PNG)
+![4](https://user-images.githubusercontent.com/3145143/52985594-dc259c80-33f4-11e9-8e52-34b9bb15c49e.PNG)
+- to the "Agent job 1" Add "Command Line" task
+</br>
+![5](https://user-images.githubusercontent.com/3145143/52985601-e182e700-33f4-11e9-9e18-c98f19c67378.PNG)
 - with sample script like :
 ```bat
 SET PATH=packages\Tools.InnoSetup.5.6.1\tools
