@@ -1,12 +1,16 @@
 # InnoSetup integation with Azure DevOps CI-CD
-innosetup is free famous installer builder for windows [official site](http://www.jrsoftware.org/).
+## Continuous Integration + Continuous Deployment
+innosetup is free  installer builder for windows [official site](http://www.jrsoftware.org/).
 
 
 ![alt](https://www.kymoto.org/images/content/logos/isstudio_logo.png)
 
-## Need
+## Requirements
+All free
 - [Inno Setup Downloads](http://www.jrsoftware.org/isdl.php)
 - [Inno Script Studio](https://www.kymoto.org/products/inno-script-studio/) visual script builder
+- [free github account](https://github.com/)
+- [azure devops account](https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/)
 
 ## steps
 - In visual studio project add the nuget package "Tools.InnoSetup"
@@ -23,12 +27,12 @@ innosetup is free famous installer builder for windows [official site](http://ww
 
 ![4](https://user-images.githubusercontent.com/3145143/52985594-dc259c80-33f4-11e9-8e52-34b9bb15c49e.PNG)
 
-- selct github and aothorize
+- select github and aothorize
 
 
 ![3](https://user-images.githubusercontent.com/3145143/52985589-d7f97f00-33f4-11e9-9cf6-2fdbd5f569ad.PNG)
 
-- to the "Agent job 1" Add "Command Line" task
+- To the "Agent job 1" Add "Command Line" task
 
 ![5](https://user-images.githubusercontent.com/3145143/52985601-e182e700-33f4-11e9-9e18-c98f19c67378.PNG)
 - with sample script like :
