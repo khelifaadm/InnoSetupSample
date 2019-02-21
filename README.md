@@ -6,36 +6,35 @@ innosetup is free  installer builder for windows [official site](http://www.jrso
 ![alt](https://www.kymoto.org/images/content/logos/isstudio_logo.png)
 
 ## Requirements
-All free
 - [Inno Setup Downloads](http://www.jrsoftware.org/isdl.php)
 - [Inno Script Studio](https://www.kymoto.org/products/inno-script-studio/) visual script builder
 - [free github account](https://github.com/)
 - [azure devops account](https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/)
 
-## steps
-- In visual studio project add the nuget package "Tools.InnoSetup"
-- Use (Script Studio) to generate "Script.iss" in visual studio project folder
+## Steps
+### 1. In visual studio project add the nuget package "Tools.InnoSetup"
+### 2. Use (Script Studio) to generate "Script.iss" in visual studio project folder
 
 - In github install "Azure Pipelines" from "Marketplace"
 
 ![](InnoSetupWinform/Capture/1.PNG)
 
-- In Azure devops create build that uses ".net desktop" template
+### 3. In Azure devops create build that uses ".net desktop" template
 
 ![](InnoSetupWinform/Capture/2.PNG)
 
 ![](InnoSetupWinform/Capture/4.PNG)
 
-- select github and aothorize
+### 4. Select github and authorize
 
 
 ![](InnoSetupWinform/Capture/3.PNG)
 
-- To the "Agent job 1" Add "Command Line" task
+### 5. To the "Agent job 1" Add "Command Line" task
 
 ![](InnoSetupWinform/Capture/5.PNG)
 
-- with sample script like :
+### 6. with sample script like :
 ```bat
 SET PATH=packages\Tools.InnoSetup.5.6.1\tools
 iscc InnoSetupWinform\Script.iss
