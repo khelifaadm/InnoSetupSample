@@ -27,7 +27,6 @@ innosetup is free  installer builder for windows [official site](http://www.jrso
 
 ### 4. Select github and authorize usin OAuth
 
-
 ![](InnoSetupWinform/Capture/3.PNG)
 
 ### 5. To the "Agent job 1" Add "Command Line" task
