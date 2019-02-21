@@ -25,7 +25,7 @@ innosetup is free  installer builder for windows [official site](http://www.jrso
 
 ![](InnoSetupWinform/Capture/4.PNG)
 
-### 4. Select github and authorize
+### 4. Select github and authorize usin OAuth
 
 
 ![](InnoSetupWinform/Capture/3.PNG)
