@@ -3,6 +3,7 @@
 [Setup]
 AppId={{BAFAE73C-059A-4B59-9C44-4E14C52700F7}
 AppName=InnoSetupSample
+AppVerName=My Program 1.5
 AppVersion={#ApplicationVersion}
 AppPublisher=My Company, Inc.
 AppPublisherURL=http://www.example.com/
